@@ -1,14 +1,15 @@
-# Title
+# Simple Operations
 
 ### PROBLEM
 
-text text text
-
+Ever wondered how many seconds are there in a month (30 days)?
 
 #### Task
-text text text
+
+Write a program to calculate and output the answer.
 
 ### CODE
+
 ```python
 H = 30 * 24
 min = 60 * H
@@ -18,8 +19,7 @@ print(sec)
 ```
 
 ### OUTPUT OF THE CODE
-#### Sample SInput
-> <br>
 
 #### Sample Output
-> <br>
+
+> 2592000<br>
