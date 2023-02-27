@@ -2,16 +2,16 @@
 
 ### PROBLEM
 
-text text text
+This code tries to make a triangle out of stars. But oh no! There’s an error in there somewhere-it outputs all the stars on one line, instead of separate lines.
 
 #### Task
 
-text text text
+Fix the code to output a triangle of stars that has 4 rows.
 
 ### CODE
 
 ```python
-print('Hello world!')
+print("*\n**\n***\n****")
 ```
 
 ### OUTPUT OF THE CODE
@@ -22,4 +22,5 @@ print('Hello world!')
 
 #### Sample Output
 
-> <br>
+> - **<br> \***<br>
+>   \*\*\*\*<br>
