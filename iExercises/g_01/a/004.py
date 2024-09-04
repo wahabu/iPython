@@ -3,9 +3,15 @@
 # -- Sample Output: -----------------------------------------------------------
 # -- r = 1.1 ------------------------------------------------------------------
 # -- Area = 3.8013271108436504 ------------------------------------------------
-import math
 
-python_pi = math.pi
-radius = float(input("What\'s Radius of your circle?"))
-area = python_pi * (radius * radius)
+# Import the 'pi' constatn from the 'math' module to calculate the area of a circle
+from math import pi
+
+# Prompt the user to input the radius of the circle
+radius = float(input("Enter the Radius of your circle: "))
+
+# Calculate the area of the circle using the formula: area = π * r^2
+area = pi * radius ** 2
+
+# Display the result, including the radius and calculated area
 print(f"Area = {area}")
