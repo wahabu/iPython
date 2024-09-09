@@ -4,7 +4,7 @@
 # -- r = 1.1 ------------------------------------------------------------------
 # -- Area = 3.8013271108436504 ------------------------------------------------
 
-# Import the 'pi' constatn from the 'math' module to calculate the area of a circle
+# Import the 'pi' constant from the 'math' module to calculate the area of a circle
 from math import pi
 
 # Prompt the user to input the radius of the circle
