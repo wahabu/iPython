@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------
-# - Write a Python program whether a passed letter is a vowel or not.
+# - Write a Python program to test whether a passed letter is a vowel or not.
 # ------------------------------------------------------------------------------
 
 # Function to check whether a character
