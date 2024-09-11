@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------
-# - Write a Python program to count hte number 4 in a given list.
+# - Write a Python program to count the number 4 in a given list.
 # ----------------------------------------------------------------
 
 # Declaring a list
