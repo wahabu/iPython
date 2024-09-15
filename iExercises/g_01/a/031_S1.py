@@ -22,9 +22,20 @@ while (count <= num2):
   count = count + 1
 
 greatest_common_divisor = max([item for item in list_1 if item in list_2])
-  
+GCD = []
+for item in list_1:
+  if item in list_2:
+    GCD.append(item)
+    
+GCF = []
+for item in list_1:
+  if item in list_2:
+    GCF += [item]
+
 print(list_1)
 print(list_2)
 # print(max(list_2))
 # print(max(list_1))
 print(greatest_common_divisor)
+print(GCD)
+print(GCF)
