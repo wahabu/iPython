@@ -21,10 +21,10 @@ while (count <= num2):
     list_2.append(count)
   count = count + 1
 
-greatest_common_divisor = [item for item in list_1 if item in list_2]
+greatest_common_divisor = max([item for item in list_1 if item in list_2])
   
 print(list_1)
 print(list_2)
 # print(max(list_2))
 # print(max(list_1))
-print(max(greatest_common_divisor))
+print(greatest_common_divisor)
