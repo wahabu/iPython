@@ -2,7 +2,7 @@
 # - Write a Python program that computes the greatest common divisor (GCD) of three positive integers.
 # ----------------------------------------------------------------------------------------------------
 
-# Define a function to calculate the greatest common divisor (GCD) of two numbers.
+# Define a function to calculate the greatest common divisor (GCD) of three numbers.
 def gcd(x, y, z):
     # Initialize gcd to 1.
     gcd = 1
