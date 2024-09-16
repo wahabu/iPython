@@ -7,8 +7,8 @@ def gcd(x, y, z):
     # Initialize gcd to 1.
     gcd = 1
 
-    # Check if y is a divisor of x (x is divisible by y).
-    if x % y % z == 0:
+    # Check if z is a divisor of x and z is a divisor of y(x is divisible by z and y is divisible by z).
+    if x % z == 0 and y % z == 0:
         return z
 
     # Iterate from half of y down to 1.
@@ -23,4 +23,4 @@ def gcd(x, y, z):
     return gcd
 
 # Print the GCD of specific pairs of numbers.
-print("GCD of your first & second numbers is: ", gcd(int(input("Input first number: ")), int(input("Input second number: ")), int(input("Input third number: "))))
+print("GCD of your first & second & third numbers is: ", gcd(int(input("Input first number: ")), int(input("Input second number: ")), int(input("Input third number: "))))
