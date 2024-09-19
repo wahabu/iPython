@@ -2,8 +2,8 @@
 # - Write a Python program to convert height (in feet and inches) to centimeters.
 # ---------------------------------------------------------------------------------
 
-height_feet = 5
-height_inches = 9+11/16
+height_feet = int(input("Input the feet value: ")) # 5
+height_inches = int(input("Input the inch value: ")) # 9+11/16
 centimeters_ft = 30.48 * height_feet
 centimeters_in = 2.54 * height_inches
 total = centimeters_in + centimeters_ft
