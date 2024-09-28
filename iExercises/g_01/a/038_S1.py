@@ -7,7 +7,7 @@ x = int(input("Input first number: "))
 # Prompt the user for input the second integer number
 y = int(input("Input second number: "))
 
-solve = (x + y ) * (x + y)
+solve = x**2 + 2 * x * y + y**2
 
 print("Test Data: x = %d, y = %d" % (x, y))
 
