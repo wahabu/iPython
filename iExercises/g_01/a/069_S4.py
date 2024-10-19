@@ -32,4 +32,3 @@ print(sort_numbers(1, 8, 3))
 print(sort_numbers(3, 1, 8))
 print(sort_numbers(1, 3, 8))
 print(sort_numbers(3, 3, 2))
-    
